@@ -43,7 +43,7 @@ public class AsteriskLogger implements Logger {
     }
     
     public void surroundSpace(double spacing) { //create indent based on (message.length()*1.25 - message.lenth) / 2
-      // may look silly if message gets too long due to increasing side indents but never message indent
+      // may look silly if message gets too long due to increasing side indents but never 
       for (int i=0; i<spacing ; i++) {
         System.out.print(" ");        
       }
