@@ -15,17 +15,17 @@ public class OOPLab {
   public static void main(String[] args) {
       
       
-      List<String> cardDeck = new ArrayList<String>();
+      //List<String> cardDeck = new ArrayList<String>();
 
-      Deck deck1 = new Deck(); 
-      deck1.deckSize = 52;
+      //Deck deck1 = new Deck(); 
+      //deck1.deckSize = 52;
       //deck1.introduce();
 
-      ArrayList<String> suits = new ArrayList<>();
+      //ArrayList<String> suits = new ArrayList<>();
       //suits.add("Diamonds", "Clubs", "Hearts", "Spades");
-      Deck deck2 = new Deck(52);
+      //Deck deck2 = new Deck(52);
       //deck2.saySuits();
-      deck2.introduce();
+      //deck2.introduce();
       //Deck (Integer deckSize, ArrayList suits, ArrayList values)
       
       

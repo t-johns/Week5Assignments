@@ -12,7 +12,10 @@ public class App {
     Logger spacedLogger = new SpacedLogger(); //instantiate SpacedLogger()
     spacedLogger.log("Spaced logger test."); //SpacedLogger.log()
     spacedLogger.error("THIS IS A SPACEDERROR TEST.");//SpacedLogger.error() test
-        
+    
+    Deck myDeck = new Deck(); //create deck
+    myDeck.makeDeck(); //makeDeck via 3 main methods in makeDeck()
+    
   }
 
 }
