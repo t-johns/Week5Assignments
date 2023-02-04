@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Deck implements Logger {
+public class Deck {
   
   
   Integer deckSize;
@@ -25,7 +25,7 @@ public class Deck implements Logger {
     this.suits.add("Spades");
   }
   
-  public void Deck(Integer deckSize, ArrayList suits, ArrayList values) {
+  public Deck(Integer deckSize, ArrayList suits, ArrayList values) {
     this.deckSize = deckSize;
     this.suits =  suits;
 
@@ -56,18 +56,7 @@ public class Deck implements Logger {
     return greeting;
   }  
   
-  @Override
-  public void log(String log) {
-    System.out.println("***" + log + "***");
-    
-  }
-  public void error(String error) {
-    Date date = new Date();
-    for (int i=0; i<error.length(); i++) {
-      System.out.print(error.charAt(i) + " "); //spaced output
-    }
-    System.err.println(date.toString() + "Error - " + ": " + error);
-  }
+
 
 
   }
