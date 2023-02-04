@@ -25,7 +25,7 @@ public class Deck implements Logger {
     this.suits.add("Spades");
   }
   
-  public Deck(Integer deckSize, ArrayList suits, ArrayList values) {
+  public void Deck(Integer deckSize, ArrayList suits, ArrayList values) {
     this.deckSize = deckSize;
     this.suits =  suits;
 
@@ -69,17 +69,6 @@ public class Deck implements Logger {
     System.err.println(date.toString() + "Error - " + ": " + error);
   }
 
-  @Override
-  public void info(String info) {
-    // TODO Auto-generated method stub
-    
-  }
-
-  @Override
-  public void boxDecor(String message) {
-    // TODO Auto-generated method stub
-    
-  }
 
   }
 
